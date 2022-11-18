@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+
 import './App.css';
+import BasicForm from './components/forms/BasicForm';
+import ShortCirEval from './components/ShortCirEval';
+// import { useState } from 'react';
+import UseStateArray from './components/UseStateArray';
+import UseStateObject from './components/UseStateObject.jsx'
 
 function App() {
+// const[name,setname]=useState('praveen');
+
+//   const changename=()=>{
+//     let value=name;
+//     (value==='praveen')?setname('sandya'):setname('praveen')
+    
+//   }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <h1>{name}</h1>
+      <button onClick={changename}>click me</button> */}
+      {/* <UseStateArray/> */}
+      {/* <UseStateObject/> */}
+      {/* <ShortCirEval/> */}
+      <BasicForm/>
     </div>
   );
 }

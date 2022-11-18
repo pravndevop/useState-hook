@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+.footer{
+  
+ font-size: 1.2rem;
+ font-weight: 700;
+/* padding-left: 47%; */
+color: aliceblue;
+margin: 0 200px 0 200px;
+}
+
+h1{
+  display: block;
+  background-color: #111;
+}
